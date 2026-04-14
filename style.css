@@ -67,3 +67,19 @@ section {
 .stat-valor {
     color: var(--cor-primaria);
 }
+
+.feature-card {
+    border:none;
+    border-radius: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    color: var(--cor-primaria);
+}
